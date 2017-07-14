@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Snovi Građenje",
-    "currentPage": "index.html",
+    "currentPage": "SG_usluge.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -535,7 +535,7 @@
               }
             ],
             "fullScreen": true,
-            "bgColor": "#abdbf2",
+            "bgColor": "#e6e0dc",
             "showBullets": true
           },
           "_anchor": "slider-17",
