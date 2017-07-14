@@ -1,0 +1,398 @@
+{
+  "settings": {
+    "name": "Snovi Građenje",
+    "currentPage": "SG_Onama.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 41,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#d8f1d5"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "hamburgerColor": "#d8f1d5",
+            "sticky": true,
+            "transparent": true,
+            "color": "#abdbf2",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/grb-proziran-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-black\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Snovi Građenje d.o.o.</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li> ",
+          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"index.html\">POČETNA</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"SG_Onama.html\">O NAMA</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">USLUGE</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">REFERENCE</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"index.html#contacts3-w\">KONTAKT</a></li>   <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "text-align": "center",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            },
+            "P": {
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "header1-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/sky-background-free-2000x908.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Snovi Građenje",
+          "text": "Dobro došli",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#e6e0dc",
+              "font-size": "18px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Snovi Građenje d.o.o. Sva prava pridržana"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-w",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<strong>Adresa</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><b>Kontakt</b><br>\nEmail:  jasminsnovigradnja@gmail.com<br>\nTel: +385 (0) 91 4848 201<br><br>",
+          "text2": "<br><ul><p>Društvo je registrirano u trgovačkom sudu u Zagrebu.</p><p>MBS: 02307251<br>OIB: 42842165153</p></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jasminsnovigradnja@gmail.com",
+            "alerts": {
+              "success": "Hvala Vam na iskazanom interesu!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Ime*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Tel*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Vaša poruka"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Pošalji</a>",
+          "_styles": {
+            "UL": {
+              "font-size": "16px",
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          }
+        }
+      ]
+    },
+    "SG_Onama.html": {
+      "settings": {
+        "title": "O nama"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#d8f1d5"
+            }
+          },
+          "_anchor": "menu-10",
+          "_params": {
+            "hamburgerColor": "#d8f1d5",
+            "sticky": true,
+            "transparent": true,
+            "color": "#abdbf2",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/grb-proziran-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-black\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Snovi Građenje d.o.o.</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li> ",
+          "items": " <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"index.html\">POČETNA</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"SG_Onama.html\">O NAMA</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">USLUGE</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">REFERENCE</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"index.html#contacts3-w\">KONTAKT</a></li>   <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-black\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\"></a></li> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#e6e0dc",
+              "font-size": "18px",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-11",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Snovi Građenje d.o.o. Sva prava pridržana"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-13",
+          "_params": {
+            "imageSize": "21",
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.2",
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "O nama:",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Tvrta Snovi Građenje d.o.o. osnovana je 2007. god. Osnovna djelatnost je gradnja stambenih i nestambenih zgrada.</p><p>Stručan i iskusan tim u mogućnosti je pružiti cjelovitu i kvalitetnu uslugu od projektiranja, savjetovanja u cilju iznalaženja najboljih rješenja, izrade i montaže, a sve sukladno vašim željama i potrebama.<span style=\"line-height: 1.5;\">Obratite nam se s punim povjerenjem.&nbsp;</span></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "36px"
+            },
+            ".lead P": {
+              "text-align": "left",
+              "font-size": "18px"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/sky-background-free-2000x908-800x363.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sky-background-free-2000x908.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-4-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-4.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-5-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-5.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-7-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-7.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg"
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#e6e0dc",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-14",
+          "articleLayout": false
+        }
+      ]
+    }
+  }
+}

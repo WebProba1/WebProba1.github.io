@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
+
+
+#menu-0 .navbar-toggler {
+  color: #d8f1d5;
+}
+#header1-b H1 {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#header1-b P {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 25px;
+}
+#footer1-i P {
+  color: #e6e0dc;
+  font-size: 18px;
+  text-align: center;
+}
+#contacts3-w UL {
+  font-size: 16px;
+  text-align: center;
+}
+#contacts3-w P {
+  text-align: left;
+}
+#menu-10 .navbar-toggler {
+  color: #d8f1d5;
+}
+#footer1-11 P {
+  color: #e6e0dc;
+  font-size: 18px;
+  text-align: center;
+}
+#msg-box4-13 .mbr-section-title {
+  text-align: left;
+  font-size: 36px;
+}
+#msg-box4-13 .lead P {
+  text-align: left;
+  font-size: 18px;
+}
